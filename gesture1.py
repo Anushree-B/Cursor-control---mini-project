@@ -5,7 +5,6 @@ import pyautogui
 import math
 from enum import IntEnum
 from ctypes import cast, POINTER
-from comtypes import CLSCTX_ALL
 from google.protobuf.json_format import MessageToDict
 
 pyautogui.FAILSAFE = False
