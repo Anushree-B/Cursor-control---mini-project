@@ -20,9 +20,13 @@ Click Functions: Perform left, right, and double clicks with specific hand gestu
 **How it Works**
 
 Capture Video: The system utilizes your webcam to capture video frames.
+
 Hand Detection: Mediapipe's hand detection model identifies your hand in the frames.
+
 Landmark Extraction: Key points on your hand (landmarks) are extracted for gesture recognition.
+
 Gesture Recognition: The program analyzes the hand landmarks to determine the intended gesture (e.g., V-shape for cursor movement, extended middle finger for left click).
+
 Cursor Control: Based on the recognized gesture, PyAutoGUI automates cursor movement or clicks.
 Customization
 
