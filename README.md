@@ -19,23 +19,20 @@ Click Functions: Perform left, right, and double clicks with specific hand gestu
 
 **How it Works**
 
-Capture Video: The system utilizes your webcam to capture video frames.
+- Capture Video: The system utilizes your webcam to capture video frames.
+- Hand Detection: Mediapipe's hand detection model identifies your hand in the frames.
+- Landmark Extraction: Key points on your hand (landmarks) are extracted for gesture recognition.
+- Gesture Recognition: The program analyzes the hand landmarks to determine the intended gesture (e.g., V-shape for cursor movement, extended middle finger for left click).
+- Cursor Control: Based on the recognized gesture, PyAutoGUI automates cursor movement or clicks.
 
-Hand Detection: Mediapipe's hand detection model identifies your hand in the frames.
-
-Landmark Extraction: Key points on your hand (landmarks) are extracted for gesture recognition.
-
-Gesture Recognition: The program analyzes the hand landmarks to determine the intended gesture (e.g., V-shape for cursor movement, extended middle finger for left click).
-
-Cursor Control: Based on the recognized gesture, PyAutoGUI automates cursor movement or clicks.
-Customization
+### Customization
 
 The project offers flexibility for customization. You can potentially explore:
 
-Adding new gestures for additional functionalities (e.g., scrolling, dragging).
-Refining the gesture recognition logic for improved accuracy.
-Incorporating error handling and user feedback mechanisms.
-This project serves as a foundation for further development in hand gesture-based cursor control. Feel free to experiment and contribute to its evolution!
+1. Adding new gestures for additional functionalities (e.g., scrolling, dragging).
+2. Refining the gesture recognition logic for improved accuracy.
+3. Incorporating error handling and user feedback mechanisms.
+4. This project serves as a foundation for further development in hand gesture-based cursor control. Feel free to experiment and contribute to its evolution!
 
 **Disclaimer**
 
